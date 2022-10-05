@@ -50,8 +50,5 @@
       $return_value = returnProduct(15, 300);
       echo $return_value . ''
 
-
-
-
     ?>
 <?php require 'includes/footer.php' ?>
