@@ -7,48 +7,47 @@
 
     <?php
 
-      /*Defining a Function */  
+        /*Defining a Function */  
 
-      function writeMessage(){
-          echo "Yor are are very bright, talented and lovely person (-: <br/>";
-      }
+        function writeMessage(){
+            echo "Yor are are very bright, talented and lovely person (-: <br/>";
+        }
 
-      /* Calling a Function */
-      writeMessage(); 
+        /* Calling a Function */
+        writeMessage(); 
 
-      echo "<hr/>";
+            echo "<hr/>";
 
-      writeMessage();
+        writeMessage();
 
-      /* Functions with parameters */
+        /* Functions with parameters */
 
-      function addFunction($num1, $num2){
+        function addFunction($num1, $num2){
           $sum = $num1 + $num2;
           $num2 = $num2 + 1;
           echo "The sum of $num1 and $num2 is: $sum <br/>";
-      }
+        }
+        /*Pass by Reference - Use ampersand in parameter */
+        function changeNum(&$num){
+            $num = $num + 20;
+            // $num+= 20;
+        }
 
-      function changeNum($num){
-          $num = $num + 20;
-          // $num+= 20;
-      }
+        function returnProduct($num1, $num2){
+            $prod = $num1 * $num2;
+            return $prod;
+        }
 
-      function returnProduct($num1, $num2){
-          $prod = $num1 * $num2;
-          return $prod;
-      }
+        $num = 700;
+        addFunction(15, 30);
+        addFunction(10, $num);
+        echo $num;
+        addFunction(20, "80");
 
-      $num = 700;
-      addFunction(15, 30);
-      addFunction(10, $num);
-      echo $num;
-      addFunction(20, "80");
+        changeNum ($num);
+        echo $num . '<br/>';
 
-      changeNum ($num);
-      echo $num . '<br/>';
-
-      $return_value = returnProduct(15, 300);
-      echo $return_value . ''
-
+        $return_value = returnProduct(15, 300);
+        echo $return_value . '<br/>';
     ?>
 <?php require 'includes/footer.php' ?>
