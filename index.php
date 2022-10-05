@@ -33,8 +33,10 @@
 
     ?>
     <button type="button" class="btn btn-dark">Click ME!!</button>
-    
-
+    <button type="button" class="btn btn-success">Success is KEY</button>
+    <button type="button" class="btn btn-secondary">Secondary Key</button>
+    <button type="button" class="btn btn-info">Information Key</button>
+    <a href="https:www.heroku.com" target="_blank" class="btn btn-danger">Heroku.com</a>
 <?php require 'includes/footer.php' ?>
     
 
