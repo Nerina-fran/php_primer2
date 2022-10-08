@@ -12,7 +12,7 @@
         
 </head>
 <boby>
-    <divclass="container" > 
+    <div class="container" > 
     <h2>Follow each link to the page example</h2>
     <u1 class="container"> 
         <li class="nav-item" ><a class="nav-link" href="index.php">Home</a></li>
@@ -23,7 +23,7 @@
         <li class="nav-item"><a class="nav-link" href="switchstatement.php">Simple Switch Statement</a></li>
         <li class="nav-item"><a class="nav-link" href="stringmanip.php">Simple String Manipulation</a></li>
         <li class="nav-item"><a class="nav-link" href="datetimemanip.php">Simple Date and Time Manipulation</a></li>
-        <li class="nav-item"><a class="nav-link" href="functions.php">Simple Functions</a></li>
+        <li class="nav-item"><a class="nav-link" href="function.php">Simple Functions</a></li>
         
         
     </u1>
