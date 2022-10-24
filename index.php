@@ -14,10 +14,8 @@
         echo 'I love IT and nursing so much';
         echo '<br/>';
         echo 'My girls are the world to me';
-    ?>
-
-
-    <?php
+    
+        
         // Variables need a '$'. They are not strongly typed
         $name = 'Nerina Francis';
         $age = 26;
