@@ -4,8 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         
         <title>PHP Primer - Index <?php echo $title ?></title>
                 
@@ -14,8 +12,8 @@
     <div class="container" > 
     <h2>Follow each link to the page example</h2>
     <u1 class="container"> 
-        <li class="nav-item" ><a class="nav-link" href="index.php">Home</a></li>
-        <li class="nav-item" ><a class="nav-link" href="array.php">Simple Array and Printouts</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="array.php">Simple Array and Printouts</a></li>
         <li class="nav-item"><a class="nav-link" href="forloop.php">Simple for Loop</a></li>
         <li class="nav-item"><a class="nav-link" href="Whiledowhileloop.php">Simple While/Do While Loop</a></li>
         <li class="nav-item"><a class="nav-link" href="ifstatement.php">Simple If Statement</a></li>
