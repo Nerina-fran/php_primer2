@@ -12,7 +12,7 @@
 <boby>
     <div class="container" > 
     <h2>Follow each link to the page example</h2>
-    <u1 class="container"> 
+    <u1 class="nav"> 
         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="array.php">Simple Array and Printouts</a></li>
         <li class="nav-item"><a class="nav-link" href="forloop.php">Simple for Loop</a></li>
